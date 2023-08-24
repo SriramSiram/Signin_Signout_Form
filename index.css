@@ -1,0 +1,51 @@
+.maincontainer{
+    background-color: aqua;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer{
+    background-color: white;
+    height:72% !important;
+    width:45% !important; 
+}
+.heading{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
+.hi{
+    font-size:50px;
+}
+.username{
+    color:green;
+    font-size:50px;
+}
+.matter{
+    font-size:28px;
+}
+.userloginmsg{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    font-family:'Times New Roman', Times, serif;
+    color:red;
+    margin:10px;
+    font-size: 18px;
+}
+.inputstyle{
+    margin:10px;
+    height:30px;
+    width:250px;
+}
+.login{
+    margin:10px;
+    display: block;
+}

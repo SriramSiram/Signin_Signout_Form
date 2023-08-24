@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login_Register</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="maincontainer">
+            <div class="subcontainer">
+                <h1 class="heading" id="headingOfForm">Login Form</h1>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home" id="loginclick">Login</a></li>
+                    <li><a data-toggle="tab" href="#menu1" id="registerclick">Register</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <form method="post" action="login.php">
+                            <input type="text" name="email" required placeholder="Email Address" class="inputstyle"><br/>
+                            <input type="password" name="password" required placeholder="Password" class="inputstyle"><br/>
+                            <input type="submit" name="submit" value="Login" class="login">
+                        </form>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <form method="post" action="register.php">
+                            <input type="text" name="name" required placeholder="User Name" class="inputstyle"><br/>
+                            <input type="text" name="email" required placeholder="Email Address" class="inputstyle"><br/>
+                            <input type="password" name="password" required placeholder="Password" class="inputstyle"><br/>
+                            <input type="password" name="conformpassword" required placeholder="Conform Password" class="inputstyle"><br/>
+                            <input type="submit" name="login" value="Register" class="login">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
