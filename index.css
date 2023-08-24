@@ -9,7 +9,7 @@
 }
 .subcontainer{
     background-color: white;
-    height:72% !important;
+/*     height:72% !important; */
     width:45% !important; 
 }
 .heading{
@@ -41,11 +41,12 @@
     font-size: 18px;
 }
 .inputstyle{
-    margin:10px;
+    margin:8px;
     height:30px;
     width:250px;
 }
 .login{
-    margin:10px;
+    margin:8px;
+    margin-bottom: 8px;
     display: block;
 }
